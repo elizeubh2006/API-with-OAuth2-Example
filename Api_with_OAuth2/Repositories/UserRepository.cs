@@ -1,11 +1,10 @@
-using Api_with_OAuth2.Models;
-
+using API_WITH_OAUTH2.Models;
 
 namespace API_WITH_OAUTH2.Repositories
 {
-    public static class UserRepository
+    public class UserRepository
     {
-        public static User Get(string username, string password)  
+        public User Get(string username, string password)  
         {
             var users = new List<User>
             {
